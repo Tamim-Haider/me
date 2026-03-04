@@ -54,7 +54,7 @@ function showPage(pageId) {
 // Check URL hash on load
 window.addEventListener('load', () => {
     const hash = window.location.hash.substring(1);
-    const validPages = ['home', 'about', 'skills', 'education', 'projects', 'experience', 'contact'];
+    const validPages = ['home', 'about', 'skills', 'education','experience', 'projects' , 'contact'];
     
     if (validPages.includes(hash)) {
         showPage(hash);
