@@ -706,3 +706,68 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* Experience Page Styling */
+.company-name {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.experience-details {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.experience-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.experience-list li {
+    margin-bottom: 12px;
+    position: relative;
+    padding-left: 25px;
+    color: var(--text-color);
+    font-size: 1rem;
+}
+
+.experience-list li::before {
+    content: '>';
+    color: var(--primary-color);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    font-size: 1.2rem;
+}
+
+/* Add a second experience template if needed */
+.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .experience-list li {
+        font-size: 0.95rem;
+        margin-bottom: 10px;
+    }
+    
+    .company-name {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-list li {
+        font-size: 0.9rem;
+        padding-left: 20px;
+    }
+    
+    .experience-list li::before {
+        font-size: 1rem;
+    }
+}
