@@ -54,7 +54,7 @@ function showPage(pageId) {
 // Check URL hash on load
 window.addEventListener('load', () => {
     const hash = window.location.hash.substring(1);
-    const validPages = ['home', 'about', 'skills', 'education', 'projects', 'contact'];
+    const validPages = ['home', 'about', 'skills', 'education', 'projects', 'experience', 'contact'];
     
     if (validPages.includes(hash)) {
         showPage(hash);
@@ -62,7 +62,6 @@ window.addEventListener('load', () => {
         showPage('home');
     }
 });
-
 // Mobile menu toggle
 document.getElementById('mobileMenuBtn').addEventListener('click', () => {
     document.getElementById('navLinks').classList.toggle('active');
