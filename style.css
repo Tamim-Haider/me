@@ -236,6 +236,7 @@ nav {
 .nav-links {
     display: flex;
     list-style: none;
+    width: 400px;
 }
 
 .nav-links li {
