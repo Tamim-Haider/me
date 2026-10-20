@@ -27,6 +27,8 @@ export interface EducationItem {
 export interface CertificationItem {
   title: string;
   issuer: string;
+  image?: string;         // <--- ADDED
+  credentialId?: string; 
 }
 
 export interface ExperienceItem {
@@ -179,17 +181,17 @@ certifications: [
   {
     title: "Blue Team Junior Analyst",
     issuer: "Security Blue Team",
-    image: "/certificates/blue-team-junior-analyst.png"
+    image: "/certificates/blue-team-junior-analyst.png" // <--- ADDED
   },
   {
     title: "Cisco Ethical Hacker",
     issuer: "Cisco Networking Academy",
-    image: "/certificates/cisco-ethical-hacker.png"
+    image: "/certificates/cisco-ethical-hacker.png"     // <--- ADDED
   },
   {
-    title: "Certified Cybersecurity Analyst",
-    issuer: "CyberWarfare Labs",
-    image: "/certificates/cyberwarfare-labs-analyst.png"
+    title: "Certified Cybersecurity Analyst",           // <--- ADDED
+    issuer: "CyberWarfare Labs",                        // <--- ADDED
+    image: "/certificates/cyberwarfare-labs-analyst.png"// <--- ADDED
   }
 ],
   
