@@ -175,19 +175,25 @@ export const SITE_DATA = {
       details: "GPA: 5.00 Out of 5.00"
     }
   ],
-
-  certifications: [
-    {
-      title: "Blue Team Junior Analyst",
-      issuer: "Security Blue Team"
-    },
-    {
-      title: "Cisco Ethical Hacker",
-      issuer: "Cisco Networking Academy"
-    }
-  ],
-
-  languages: [
+certifications: [
+  {
+    title: "Blue Team Junior Analyst",
+    issuer: "Security Blue Team",
+    image: "/certificates/blue-team-junior-analyst.png"
+  },
+  {
+    title: "Cisco Ethical Hacker",
+    issuer: "Cisco Networking Academy",
+    image: "/certificates/cisco-ethical-hacker.png"
+  },
+  {
+    title: "Certified Cybersecurity Analyst",
+    issuer: "CyberWarfare Labs",
+    image: "/certificates/cyberwarfare-labs-analyst.png"
+  }
+],
+  
+languages: [
     { name: "Bangla", level: "Native" },
     { name: "English", level: "Fluent" },
     { name: "Hindi", level: "Fluent" },
