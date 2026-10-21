@@ -36,6 +36,8 @@ export interface ExperienceItem {
   role: string;
   company: string;
   details: string[];
+  certificate?: string;
+  certificateTitle?: string;
 }
 
 export const SITE_DATA = {
@@ -212,7 +214,9 @@ languages: [
         "Performed vulnerability assessments using tools like Nessus, Nmap, and Burp Suite",
         "Documented findings and provided remediation recommendations in detailed reports",
         "Collaborated with the security team to simulate real-world attack scenarios"
-      ]
+      ],
+      certificate: "/certificates/deltaware-internship-certificate.png",
+      certificateTitle: "Penetration Tester Intern Certificate"
     },
     {
       period: "September 2026 - November 2026",
@@ -223,10 +227,11 @@ languages: [
         "Developed and tested security tools and proof-of-concept exploits in controlled environments",
         "Analyzed malware behavior and documented findings for security awareness",
         "Collaborated with the R&D team to build innovative security solutions"
-      ]
+      ],
+      certificate: "/certificates/cyberfox-internship-certificate.png",
+      certificateTitle: "Cybersecurity R&D Intern Certificate"
     }
   ],
-
   projects: [
     {
       id: "ips",
