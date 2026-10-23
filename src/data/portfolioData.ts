@@ -27,8 +27,8 @@ export interface EducationItem {
 export interface CertificationItem {
   title: string;
   issuer: string;
-  image?: string;         // <--- ADDED
-  credentialId?: string; 
+  image?: string;
+  credentialId?: string;
 }
 
 export interface ExperienceItem {
@@ -179,25 +179,26 @@ export const SITE_DATA = {
       details: "GPA: 5.00 Out of 5.00"
     }
   ],
-certifications: [
-  {
-    title: "Blue Team Junior Analyst",
-    issuer: "Security Blue Team",
-    image: "/certificates/blue-team-junior-analyst.png" // <--- ADDED
-  },
-  {
-    title: "Cisco Ethical Hacker",
-    issuer: "Cisco Networking Academy",
-    image: "/certificates/cisco-ethical-hacker.png"     // <--- ADDED
-  },
-  {
-    title: "Certified Cybersecurity Analyst",           // <--- ADDED
-    issuer: "CyberWarfare Labs",                        // <--- ADDED
-    image: "/certificates/cyberwarfare-labs-analyst.png"// <--- ADDED
-  }
-],
-  
-languages: [
+
+  certifications: [
+    {
+      title: "Blue Team Junior Analyst",
+      issuer: "Security Blue Team",
+      image: "/certificates/blue-team-junior-analyst.png"
+    },
+    {
+      title: "Cisco Ethical Hacker",
+      issuer: "Cisco Networking Academy",
+      image: "/certificates/cisco-ethical-hacker.png"
+    },
+    {
+      title: "Certified Cybersecurity Analyst",
+      issuer: "CyberWarfare Labs",
+      image: "/certificates/cyberwarfare-labs-analyst.png"
+    }
+  ],
+
+  languages: [
     { name: "Bangla", level: "Native" },
     { name: "English", level: "Fluent" },
     { name: "Hindi", level: "Fluent" },
@@ -230,7 +231,7 @@ languages: [
       ],
       certificate: "/certificates/cyberfox-internship-certificate.png",
       certificateTitle: "Cybersecurity R&D Intern Certificate"
-    }
+    },
     {
       period: "October 2026 - December 2026",
       role: "Cyber Security Intern (Remote)",
@@ -245,6 +246,7 @@ languages: [
       certificateTitle: "Cyber Security Intern Certificate"
     }
   ],
+
   projects: [
     {
       id: "ips",
