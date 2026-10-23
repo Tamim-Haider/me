@@ -231,6 +231,19 @@ languages: [
       certificate: "/certificates/cyberfox-internship-certificate.png",
       certificateTitle: "Cybersecurity R&D Intern Certificate"
     }
+    {
+      period: "October 2026 - December 2026",
+      role: "Cyber Security Intern (Remote)",
+      company: "Networkwalks Academy",
+      details: [
+        "Monitored and analyzed network traffic to detect anomalies, security threats, and unauthorized access attempts",
+        "Configured and evaluated network defense controls, firewall policies, and secure network routing protocols",
+        "Performed vulnerability scanning, threat assessments, and security configuration reviews",
+        "Collaborated on incident response simulations and defensive cybersecurity operations"
+      ],
+      certificate: "/certificates/networkwalks.png",
+      certificateTitle: "Cyber Security Intern Certificate"
+    }
   ],
   projects: [
     {
